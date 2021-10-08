@@ -22,7 +22,7 @@ public class darth_server {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         int choice = sc.nextInt();
-        final int PORT = 4040;
+        final int PORT = 8080; // host server is listening for requests
 
         ServerSocket serverSocket = new ServerSocket(PORT);
 
